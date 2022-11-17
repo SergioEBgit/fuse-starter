@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>description</th>
+            <th>category</th>
+            <th>duration</th>
+            <th>updateAt</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let curso of cursos">
+            <td>{{curso.id}}</td>
+            <td>{{curso.title}}</td>
+            <td>{{curso.description}}</td>
+            <td>{{curso.category}}</td>
+            <td>{{curso.duration}}</td>
+            <td>{{curso.updatedAt}}</td>
+        </tr>
+    </tbody>
+</table>
