@@ -22,4 +22,13 @@ export class CursoService{
             })
         );
     }
+
+    public getCurso(id: string): Observable<any>{
+        const url = `api/apps/academia/cursos/${id}`;
+        return this.http.get<Curso>(url).pipe(
+            tap((response: Curso)=>{
+                this._curso.next(response);
+            })
+        );
+    }
 }

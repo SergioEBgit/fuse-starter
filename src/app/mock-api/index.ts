@@ -22,6 +22,7 @@ import { ShortcutsMockApi } from 'app/mock-api/common/shortcuts/api';
 import { TasksMockApi } from 'app/mock-api/apps/tasks/api';
 import { UserMockApi } from 'app/mock-api/common/user/api';
 import { AcademiaMockApi } from 'app/mock-api/apps/academia/api';
+import { AlumnosMockApi } from './apps/alumno/api';
 
 export const mockApiServices = [
     AcademyMockApi,
@@ -47,5 +48,6 @@ export const mockApiServices = [
     ShortcutsMockApi,
     TasksMockApi,
     UserMockApi,
-    AcademiaMockApi
+    AcademiaMockApi,
+    AlumnosMockApi
 ];

@@ -9,13 +9,13 @@ export const defaultNavigation: FuseNavigationItem[] = [
         icon : 'heroicons_outline:chart-pie',
         link : '/example'
     },
-    {
-        id   : 'curso',
-        title: 'Curso',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/curso'
-    },
+    // {
+    //     id   : 'curso',
+    //     title: 'Curso',
+    //     type : 'basic',
+    //     icon : 'heroicons_outline:chart-pie',
+    //     link : '/curso'
+    // },
     {
         id   : 'academia',
         title: 'Academia',
@@ -32,13 +32,13 @@ export const compactNavigation: FuseNavigationItem[] = [
         icon : 'heroicons_outline:chart-pie',
         link : '/example'
     },
-    {
-        id   : 'curso',
-        title: 'Curso',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/curso'
-    },
+    // {
+    //     id   : 'curso',
+    //     title: 'Curso',
+    //     type : 'basic',
+    //     icon : 'heroicons_outline:chart-pie',
+    //     link : '/curso'
+    // },
     {
         id   : 'academia',
         title: 'Academia',
@@ -55,13 +55,13 @@ export const futuristicNavigation: FuseNavigationItem[] = [
         icon : 'heroicons_outline:chart-pie',
         link : '/example'
     },
-    {
-        id   : 'curso',
-        title: 'Curso',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/curso'
-    },
+    // {
+    //     id   : 'curso',
+    //     title: 'Curso',
+    //     type : 'basic',
+    //     icon : 'heroicons_outline:chart-pie',
+    //     link : '/curso'
+    // },
     {
         id   : 'academia',
         title: 'Academia',
@@ -78,13 +78,13 @@ export const horizontalNavigation: FuseNavigationItem[] = [
         icon : 'heroicons_outline:chart-pie',
         link : '/example'
     },
-    {
-        id   : 'curso',
-        title: 'Curso',
-        type : 'basic',
-        icon : 'heroicons_outline:chart-pie',
-        link : '/curso'
-    },
+    // {
+    //     id   : 'curso',
+    //     title: 'Curso',
+    //     type : 'basic',
+    //     icon : 'heroicons_outline:chart-pie',
+    //     link : '/curso'
+    // },
     {
         id   : 'academia',
         title: 'Academia',

@@ -78,7 +78,7 @@ export const appRoutes: Route[] = [
         ]
     },
 
-    // Curso routes
+
     {
         path       : '',
         canActivate: [AuthGuard],
